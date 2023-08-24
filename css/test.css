@@ -1,0 +1,128 @@
+*
+{
+    font-family: Karla;
+    padding: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: hsl(204, 43%, 93%);
+}
+/* .body::after
+{
+    content: "";
+    background-color: aquamarine;
+    width: 635px;
+    height: 215px;
+    display: flex;
+    position: relative;
+    left: 27.5%;
+    top: 155px;
+} */
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 400px;
+    top: 177.5px;
+    border-radius: 10px;
+    box-shadow: -19px -1px 16px 0px #00000008;
+}
+.card1
+{
+    width: 635px;
+    height: 215px;
+    background-color: white;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+}
+.card2
+{
+    width: 317.5px;
+    height: 230px;
+    background-color: hsl(179, 62%, 43%);
+}
+.card3
+{
+    width: 317.5px;
+    height: 230px;
+    background-color:  hsl(179.48deg 47.15% 51.76%);
+}
+.title
+{
+    margin: 40px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:hsl(179.48deg 47.15% 51.76%) ;
+}
+.pre-title
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    margin-left: 30px;
+}
+.card1 p
+{
+    font-size: 15px;
+    font-weight: 400;
+    color:hsl(218, 22%, 67%);
+    margin-left: 30px;
+
+}
+.title2
+{
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    margin: 40px 30px 15px;
+}
+.button
+{
+    text-align: center;
+    /* padding: 20px; */
+    padding-top: 10px;
+    background-color: hsl(71, 73%, 54%);
+    width: 235px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px
+}
+.card2 p
+{
+    color:hsl(204, 43%, 93%) ;
+}
+.card2 .span2
+{
+    color:hsl(0deg 30.45% 88.8% / 68%) ;
+}
+.card2 .span1
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 700
+}
+.price
+{
+    margin-left: 30px;
+}
+.title3
+{
+    margin: 35px 30px 15px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.card3 p
+{
+    margin-left: 30px;
+    color:#aeeef6;
+}
